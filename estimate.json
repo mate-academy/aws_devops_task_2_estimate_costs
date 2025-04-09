@@ -1,0 +1,24 @@
+{
+  "Groups": {
+    "Services": [
+      {
+        "Service Name": "Amazon EC2 ",
+        "Region": "Europe (Frankfurt)",
+        "Properties": {
+          "Advance EC2 instance": "t2.micro",
+          "Operating system": "Linux",
+          "Pricing strategy": "On-Demand Utilization"
+        }
+      },
+      {
+        "Service Name": "Public IPv4 Address"
+      },
+      {
+        "Service Name": "S3 Standard",
+        "Properties": {
+          "S3 Standard storage": "10 GB per month"
+        }
+      }
+    ]
+  }
+}
