@@ -3,7 +3,7 @@ $estimatePath = './estimate.json'
 if (Test-Path $estimatePath) { 
     Write-Output "`u{2705} Checking if estimate file - OK. "
 } else { 
-    throw "`u{1F635} Unable to find estimate file. Please make sure that you saved you estimate to a file 'exsimate.json' in this repo and try again. "
+    throw "`u{1F635} Unable to find estimate file. Please make sure that you saved you estimate to a file 'estimate.json' in this repo and try again. "
 }
 
 $estimate = (Get-Content -Path $estimatePath | ConvertFrom-Json) 
