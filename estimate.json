@@ -1,0 +1,31 @@
+# Створити estimate.json
+cat > estimate.json << 'EOF'
+{
+  "version": "1.0",
+  "groups": [
+    {
+      "type": "AWS::EC2::Instance",
+      "description": "Grafana EC2 Instance",
+      "estimate": {
+        "resourceType": "t2.micro",
+        "region": "eu-central-1",
+        "quantity": 1,
+        "unitPrice": 0.0116,
+        "monthlyCost": 8.35
+      }
+    },
+    {
+      "type": "AWS::S3::Bucket",
+      "description": "Grafana backups storage",
+      "estimate": {
+        "resourceType": "Standard Storage",
+        "region": "eu-central-1", 
+        "quantity": 10,
+        "unitPrice": 0.023,
+        "monthlyCost": 0.23
+      }
+    }
+  ],
+  "totalMonthlyCost": 8.58
+}
+EOF
