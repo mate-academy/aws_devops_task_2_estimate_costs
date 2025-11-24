@@ -1,0 +1,91 @@
+{
+  "id": "d5b64718-3c97-4006-a6a3-4f45f09b8980",
+  "name": "mate-task",
+  "createdAt": "November 24, 2025 at 09:43 (UTC+1:00)",
+  "expiresAt": "December 24, 2026 at 09:43 (UTC+1:00)",
+  "rateType": "BEFORE_DISCOUNTS",
+  "rateTimestamp": "November 24, 2025 at 09:43 (UTC+1:00)",
+  "status": "VALID",
+  "totalCostHistorical": 0,
+  "totalCostEstimated": 13.418999999999999,
+  "currency": "USD",
+  "exportCreatedAt": "November 24, 2025 at 10:21 (UTC+1:00)",
+  "items": [
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EUC1-DedicatedUsage:t3.micro",
+      "operation": "RunInstances",
+      "location": "eu-central-1",
+      "usageId": "19ca391d-cee7-4f40-b489-fd0f52b8870b",
+      "usageAccountId": 148251043575,
+      "accountName": "",
+      "group": "cost",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 730
+      },
+      "costSummary": {
+        "cost": 9.344,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EUC1-EBS:VolumeUsage.sc1",
+      "operation": "",
+      "location": "eu-central-1",
+      "usageId": "383f19cc-ea6f-4e6e-8442-aa6ae45f2b8c",
+      "usageAccountId": 148251043575,
+      "accountName": "",
+      "group": "cost",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 10
+      },
+      "costSummary": {
+        "cost": 0.18,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "EUC1-TimedStorage-ByteHrs",
+      "operation": "",
+      "location": "eu-central-1",
+      "usageId": "53600242-2e31-4db5-8980-5726f589ac01",
+      "usageAccountId": 148251043575,
+      "accountName": "",
+      "group": "cost",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 10
+      },
+      "costSummary": {
+        "cost": 0.245,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "EUC1-PublicIPv4:InUseAddress",
+      "operation": "",
+      "location": "eu-central-1",
+      "usageId": "e5b633b3-e5bb-408a-b55e-aeff87689bda",
+      "usageAccountId": 148251043575,
+      "accountName": "",
+      "group": "cost",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 730
+      },
+      "costSummary": {
+        "cost": 3.65,
+        "currency": "USD",
+        "status": "new"
+      }
+    }
+  ]
+}
