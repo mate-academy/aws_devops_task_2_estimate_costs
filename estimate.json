@@ -1,16 +1,16 @@
 {
     "Name": "My Estimate",
     "Total Cost": {
-        "monthly": "10.02",
+        "monthly": "13.67",
         "upfront": "0.00",
-        "12 months": "120.24"
+        "12 months": "164.04"
     },
     "Metadata": {
         "Currency": "USD",
         "Locale": "en_US",
-        "Created On": "19.12.2025",
+        "Created On": "20.12.2025",
         "Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
-        "Share Url": "https://calculator.aws/#/estimate?id=e44dc9616796cbc320e29155b35820e079b99989"
+        "Share Url": "https://calculator.aws/#/estimate?id=7d27164c9b70d9be43ebba49e91cdebaf1367ef8"
     },
     "Groups": {
         "Services": [
@@ -46,6 +46,21 @@
                 },
                 "Properties": {
                     "S3 Standard storage": "10 GB per month"
+                }
+            },
+            {
+                "Service Name": "Public IPv4 Address",
+                "Description": "vpc for grafana",
+                "Region": "Europe (Frankfurt)",
+                "Status": "",
+                "Service Cost": {
+                    "monthly": "3.65",
+                    "upfront": "0.00",
+                    "12 months": "43.80"
+                },
+                "Properties": {
+                    "Number of In-use public IPv4 addresses": "1",
+                    "Number of Idle public IPv4 addresses": "0"
                 }
             }
         ]
