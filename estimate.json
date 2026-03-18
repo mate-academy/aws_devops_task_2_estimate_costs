@@ -1,0 +1,37 @@
+{
+  "Version": "2026-03-18",
+  "Currency": "USD",
+  "Total Cost": "16.17 USD",
+  "Groups": {
+    "Services": [
+      {
+        "Service Name": "Amazon EC2 ",
+        "Region": "Europe (Frankfurt)",
+        "Monthly Cost": "8.47 USD",
+        "Properties": {
+          "Advance EC2 instance": "t2.micro",
+          "Pricing strategy": "On-Demand Utilization: 730 Hrs",
+          "Operating system": "Linux"
+        }
+      },
+      {
+        "Service Name": "Public IPv4 Address",
+        "Region": "Europe (Frankfurt)",
+        "Monthly Cost": "3.65 USD",
+        "Properties": {
+          "Quantity": "1",
+          "Usage": "In-use public IPv4 address"
+        }
+      },
+      {
+        "Service Name": "S3 Standard",
+        "Region": "Europe (Frankfurt)",
+        "Monthly Cost": "4.05 USD",
+        "Properties": {
+          "S3 Standard storage": "10 GB per month",
+          "Storage class": "S3 Standard"
+        }
+      }
+    ]
+  }
+}
