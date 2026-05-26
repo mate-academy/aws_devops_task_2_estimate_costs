@@ -1,0 +1,77 @@
+{
+    "Name": "My Estimate",
+    "Total Cost": {
+        "monthly": "13.68",
+        "upfront": "0.00",
+        "12 months": "164.16"
+    },
+    "Metadata": {
+        "Currency": "USD",
+        "Locale": "en_US",
+        "Created On": "26.05.2026",
+        "Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply.",
+        "Share Url": "https://calculator.aws/#/estimate?id=a98e593afa9a189710d903e273c460eab32ac3b7"
+    },
+    "Groups": {
+        "Services": [
+            {
+                "Service Name": "Amazon EC2 ",
+                "Description": "Grafana EC2 Instance",
+                "Region": "Europe (Frankfurt)",
+                "Status": "",
+                "Service Cost": {
+                    "monthly": "9.78",
+                    "upfront": "0.00",
+                    "12 months": "117.38"
+                },
+                "Properties": {
+                    "Tenancy": "Shared Instances",
+                    "Operating system": "Linux",
+                    "Workload": "Consistent, Number of instances: 1",
+                    "Advance EC2 instance": "t2.micro",
+                    "Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+                    "Enable monitoring": "disabled",
+                    "DT Inbound: Not selected": "0 TB per month",
+                    "DT Outbound: Not selected": "0 TB per month",
+                    "DT Intra-Region:": "0 TB per month"
+                }
+            },
+            {
+                "Service Name": "S3 Standard",
+                "Region": "Europe (Frankfurt)",
+                "Status": "",
+                "Service Cost": {
+                    "monthly": "0.25",
+                    "upfront": "0.00",
+                    "12 months": "3.00"
+                },
+                "Properties": {
+                    "S3 Standard storage": "10 GB per month",
+                    "PUT, COPY, POST, LIST requests to S3 Standard": "30"
+                }
+            },
+            {
+                "Service Name": "Public IPv4 Address",
+                "Region": "Europe (Frankfurt)",
+                "Status": "",
+                "Service Cost": {
+                    "monthly": "3.65",
+                    "upfront": "0.00",
+                    "12 months": "43.80"
+                },
+                "Properties": {}
+            },
+            {
+                "Service Name": "Data Transfer",
+                "Region": "Europe (Frankfurt)",
+                "Status": "",
+                "Service Cost": {
+                    "monthly": "0.00",
+                    "upfront": "0.00",
+                    "12 months": "0.00"
+                },
+                "Properties": {}
+            }
+        ]
+    }
+}
