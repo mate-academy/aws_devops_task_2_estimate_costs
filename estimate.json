@@ -1,0 +1,88 @@
+{
+	"Name": "My Estimate",
+	"Total Cost": {
+		"monthly": "4.46",
+		"upfront": "0.00",
+		"12 months": "53.52"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "05.07.2026",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=333f432070fc20ff0db7256b9dfe9938fdf1ff67"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon EC2 ",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "4.23",
+					"upfront": "0.00",
+					"12 months": "50.81"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 1",
+					"Advance EC2 instance": "t2.micro",
+					"Pricing strategy": "Compute Savings Plans 3yr  No Upfront",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "VPN Connection",
+				"Region": "Europe (Frankfurt)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"Working days per month": "22"
+				}
+			},
+			{
+				"Service Name": "Public IPv4 Address",
+				"Region": "Europe (Frankfurt)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {}
+			},
+			{
+				"Service Name": "S3 Standard",
+				"Region": "Europe (Frankfurt)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.23",
+					"upfront": "0.00",
+					"12 months": "2.76"
+				},
+				"Properties": {
+					"S3 Standard storage": "10 GB per month"
+				}
+			},
+			{
+				"Service Name": "Data Transfer",
+				"Region": "Europe (Frankfurt)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {}
+			}
+		]
+	}
+}
