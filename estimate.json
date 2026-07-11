@@ -1,27 +1,27 @@
 {
 	"Name": "My Estimate",
 	"Total Cost": {
-		"monthly": "4.46",
+		"monthly": "6.02",
 		"upfront": "0.00",
-		"12 months": "53.52"
+		"12 months": "72.24"
 	},
 	"Metadata": {
 		"Currency": "USD",
 		"Locale": "en_US",
-		"Created On": "05.07.2026",
+		"Created On": "11.07.2026",
 		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
-		"Share Url": "https://calculator.aws/#/estimate?id=333f432070fc20ff0db7256b9dfe9938fdf1ff67"
+		"Share Url": "https://calculator.aws/#/estimate?id=11e2d0cdfc5cc36a15a0d73226f2a4ae9bc73be2"
 	},
 	"Groups": {
 		"Services": [
 			{
 				"Service Name": "Amazon EC2 ",
-				"Region": "US East (Ohio)",
+				"Region": "Europe (Frankfurt)",
 				"Status": "",
 				"Service Cost": {
-					"monthly": "4.23",
+					"monthly": "5.77",
 					"upfront": "0.00",
-					"12 months": "50.81"
+					"12 months": "69.20"
 				},
 				"Properties": {
 					"Tenancy": "Shared Instances",
@@ -64,12 +64,13 @@
 				"Region": "Europe (Frankfurt)",
 				"Status": "",
 				"Service Cost": {
-					"monthly": "0.23",
+					"monthly": "0.25",
 					"upfront": "0.00",
-					"12 months": "2.76"
+					"12 months": "3.00"
 				},
 				"Properties": {
-					"S3 Standard storage": "10 GB per month"
+					"S3 Standard storage": "10 GB per month",
+					"Data returned by S3 Select": "10 GB per month"
 				}
 			},
 			{
