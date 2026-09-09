@@ -1,0 +1,72 @@
+{
+  "id": "b77fee36-fcaf-454a-87bb-6f4895d51b00",
+  "name": "aws-task-cost",
+  "createdAt": "September 9, 2026 at 16:10 (UTC+4:00)",
+  "expiresAt": "October 9, 2027 at 16:10 (UTC+4:00)",
+  "rateType": "BEFORE_DISCOUNTS",
+  "rateTimestamp": "September 9, 2026 at 16:10 (UTC+4:00)",
+  "status": "VALID",
+  "totalCostHistorical": 0,
+  "totalCostEstimated": 13.677,
+  "currency": "USD",
+  "exportCreatedAt": "September 9, 2026 at 16:41 (UTC+4:00)",
+  "items": [
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "EUC1-TimedStorage-ByteHrs",
+      "operation": "",
+      "location": "eu-central-1",
+      "usageId": "085f882e-2fed-4197-bd42-9f807c3d611a",
+      "usageAccountId": 227703473076,
+      "accountName": "",
+      "group": "Grafana",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 10
+      },
+      "costSummary": {
+        "cost": 0.245,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EUC1-BoxUsage:t2.micro",
+      "operation": "RunInstances",
+      "location": "eu-central-1",
+      "usageId": "2826fbf1-9853-4f97-8746-d71869108690",
+      "usageAccountId": 227703473076,
+      "accountName": "",
+      "group": "Grafana",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 730
+      },
+      "costSummary": {
+        "cost": 9.782,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "EUC1-PublicIPv4:InUseAddress",
+      "operation": "",
+      "location": "eu-central-1",
+      "usageId": "52a68051-db7f-4ad7-a060-f70697c3fc40",
+      "usageAccountId": 227703473076,
+      "accountName": "",
+      "group": "Grafana",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 730
+      },
+      "costSummary": {
+        "cost": 3.65,
+        "currency": "USD",
+        "status": "new"
+      }
+    }
+  ]
+}
