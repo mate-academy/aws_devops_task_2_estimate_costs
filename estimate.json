@@ -1,0 +1,64 @@
+{
+  "Name": "mate-task-aws",
+  "Total Cost": {
+    "monthly": 14.44,
+    "upfront": 0,
+    "12 months": 173.28
+  },
+  "Metadata": {
+    "Currency": "USD",
+    "Locale": "en_US",
+    "Created On": "30/09/2026",
+    "Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees."
+  },
+  "Groups": {
+    "Services": [
+      {
+        "Service Name": "Amazon EC2 ",
+        "Region": "Europe (Frankfurt)",
+        "Status": "",
+        "Service Cost": {
+          "monthly": 10.54,
+          "upfront": 0,
+          "12 months": 126.48
+        },
+        "Properties": {
+          "Tenancy": "Shared Instances",
+          "Operating system": "Linux",
+          "Workload": "Consistent, Number of instances: 1",
+          "Advance EC2 instance": "t2.micro",
+          "Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+          "Enable monitoring": "disabled",
+          "Storage for each EC2 instance": "General Purpose SSD (gp3)",
+          "Storage amount": "8 GB"
+        }
+      },
+      {
+        "Service Name": "Public IPv4 Address",
+        "Region": "Europe (Frankfurt)",
+        "Status": "",
+        "Service Cost": {
+          "monthly": 3.65,
+          "upfront": 0,
+          "12 months": 43.8
+        },
+        "Properties": {
+          "Number of In-use public IPv4 addresses": "1"
+        }
+      },
+      {
+        "Service Name": "S3 Standard",
+        "Region": "Europe (Frankfurt)",
+        "Status": "",
+        "Service Cost": {
+          "monthly": 0.25,
+          "upfront": 0,
+          "12 months": 3.0
+        },
+        "Properties": {
+          "S3 Standard storage": "10 GB per month"
+        }
+      }
+    ]
+  }
+}
